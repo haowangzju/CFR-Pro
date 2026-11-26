@@ -1,0 +1,17 @@
+batchSize: 32
+data: ACIC
+dim_backbone: 16,16
+dim_task: 32,32
+dropout: 0
+end_time: 1795688601.4031036
+epoch: 400
+l2_reg: 0.0001
+lambda: 0
+lr: 0.001
+model: slearner
+patience: 30
+root: baseline_final2
+seed: 2
+start_time: 1795688369.1169639
+treat_weight: 0.0
+tune: 0
