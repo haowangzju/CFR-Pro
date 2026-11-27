@@ -1,6 +1,6 @@
 <div align="center">
 
-# CFR-Pro
+<img src="assets_sigkdd/cfr-pro-logo.png" alt="CFR-Pro — Proximity-enhanced CounterFactual Regression" width="440">
 
 ### Proximity Matters: Local Proximity Enhanced Balancing for Treatment Effect Estimation
 
