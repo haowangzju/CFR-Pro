@@ -64,9 +64,9 @@ stroke-width="4"/>
 font-family="Inter, Arial, Helvetica, sans-serif"
 font-size="52"
 font-weight="800"
-letter-spacing="-2">
+letter-spacing="0">
 <tspan fill="#26384A">CFR</tspan>
-<tspan fill="#8795A5">-</tspan>
+<tspan fill="#8795A5">&#8211;</tspan>
 <tspan fill="#176BC1">Pro</tspan>
 </text>
 <!-- Minimal blue-orange accent -->
