@@ -59,10 +59,10 @@ stroke-width="4"/>
 fill="#FFFFFF"
 stroke="url(#orangeNode)"
 stroke-width="4"/>
-<!-- Wordmark -->
-<text x="155" y="79"
+<!-- Wordmark: font 46 keeps the lockup inside the 400px canvas, left/right pads balanced (7px each) -->
+<text x="172" y="79"
 font-family="Inter, Arial, Helvetica, sans-serif"
-font-size="52"
+font-size="46"
 font-weight="800"
 letter-spacing="0">
 <tspan fill="#26384A">CFR</tspan>
@@ -70,8 +70,8 @@ letter-spacing="0">
 <tspan fill="#176BC1">Pro</tspan>
 </text>
 <!-- Minimal blue-orange accent -->
-<rect x="158" y="93" width="74" height="4" rx="2"
+<rect x="174" y="93" width="66" height="4" rx="2"
 fill="#176BC1"/>
-<rect x="236" y="93" width="25" height="4" rx="2"
+<rect x="244" y="93" width="22" height="4" rx="2"
 fill="#E47732"/>
 </svg>
