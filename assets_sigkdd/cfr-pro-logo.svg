@@ -1,0 +1,77 @@
+<svg width="620" height="128" viewBox="0 0 620 128"
+xmlns="http://www.w3.org/2000/svg"
+role="img"
+aria-label="CFR-Pro">
+<defs>
+<linearGradient id="blueNode" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#53C3F2"/>
+<stop offset="100%" stop-color="#176BC1"/>
+</linearGradient>
+<linearGradient id="orangeNode" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#FFD17A"/>
+<stop offset="100%" stop-color="#E47732"/>
+</linearGradient>
+<marker id="causalArrow"
+markerUnits="userSpaceOnUse"
+markerWidth="9"
+markerHeight="10"
+refX="9"
+refY="5"
+orient="auto">
+<path d="M0,0 L9,5 L0,10 Z" fill="#176BC1"/>
+</marker>
+</defs>
+<!-- Left square icon -->
+<rect x="8" y="8" width="112" height="112" rx="27"
+fill="#FFFFFF"
+stroke="#D9E3EC"
+stroke-width="2"/>
+<!-- Confounding paths -->
+<path d="M59 45 L39 78"
+fill="none"
+stroke="#9AA8B6"
+stroke-width="3"
+stroke-linecap="round"/>
+<path d="M69 45 L89 78"
+fill="none"
+stroke="#9AA8B6"
+stroke-width="3"
+stroke-linecap="round"/>
+<!-- Causal effect: blue straight edge, arrow tip touches the orange node -->
+<path d="M41 89 L83 89"
+fill="none"
+stroke="#176BC1"
+stroke-width="2.5"
+stroke-linecap="round"
+marker-end="url(#causalArrow)"/>
+<!-- Confounder node -->
+<circle cx="64" cy="34" r="12"
+fill="#FFFFFF"
+stroke="#68798A"
+stroke-width="4"/>
+<!-- Treatment node -->
+<circle cx="33" cy="91" r="12"
+fill="#FFFFFF"
+stroke="url(#blueNode)"
+stroke-width="4"/>
+<!-- Outcome node -->
+<circle cx="95" cy="91" r="12"
+fill="#FFFFFF"
+stroke="url(#orangeNode)"
+stroke-width="4"/>
+<!-- Wordmark -->
+<text x="155" y="79"
+font-family="Inter, Arial, Helvetica, sans-serif"
+font-size="52"
+font-weight="800"
+letter-spacing="-2">
+<tspan fill="#26384A">CFR</tspan>
+<tspan fill="#8795A5">-</tspan>
+<tspan fill="#176BC1">Pro</tspan>
+</text>
+<!-- Minimal blue-orange accent -->
+<rect x="158" y="93" width="74" height="4" rx="2"
+fill="#176BC1"/>
+<rect x="236" y="93" width="25" height="4" rx="2"
+fill="#E47732"/>
+</svg>
