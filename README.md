@@ -2,7 +2,7 @@
 
 <img src="assets_sigkdd/cfr-pro-logo.svg" alt="CFR-Pro — Proximity-enhanced CounterFactual Regression" width="550">
 
-# Local Proximity Enhanced Balancing for Treatment Effect Estimation
+## Local Proximity Enhanced Balancing for Treatment Effect Estimation
 
 **ACM SIGKDD 2025** · Proceedings, Volume 2 · pp. 2927–2937
 
